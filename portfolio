@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        alert("Welcome User")
+        var name = prompt("What's your name?");
+        var age = prompt("What's your age?");
+        age=age+20;
+        age+=20;
+        age++;
+        age--;
+        age-=14;
+        age*=14;
+        age/=14;
+
+        var height = prompt("What's your height?");
+        alert("Your name is "+name+"\nYour name is "+age+"\nYour height is "+height);
+        document.write("<b>Your name is </b>"+"<i>"+name+"</i>"+"<br><b>\nYour name is </b>"+age+"<br><b>\nYour height is </b>"+height);
+        document.write("<h1 style=\"background-color : green \">Hello World</h1>");
+        var w=parseFloat(prompt("enter width"));
+        var h=parseFloat(prompt("enter height"));
+        var b=parseFloat(prompt("enter base"));
+        var ls=parseFloat(prompt("enter large side"));
+        var ss=parseFloat(prompt("enter small side"));
+        var perimeter=parseFloat(prompt("enter perimeter"));
+        var apothem=parseFloat(prompt("enter apothem"));
+
+        var areaOfRectanle=w*h;
+        document.write("Area"+areaOfRectanle);
+
+        var areaOfTriangle=(b*(h/2));
+        document.write("Area"+areaOfTriangle);
+
+        var areaOfTrapezoid=(((ls+ss)/2)*h);
+        document.write("Area"+areaOfTrapezoid);
+
+        var areaOfPolygon=((p/2)*a);
+        document.write("Area"+areaOfPolygon);
+
+
+        var r=parseInt(prompt)("Enter your radius:"));
+        var areaofCircle=Math.PI*Math.pow(r,2);
+        Document.write(areaofCircle);
+
+
+       var ans=math.pow(a,3)-(3*Math.pow(a,2)*b)+(3*a*Math.pow(b,2))-Math.pow(b,3);
+
+
+
+    </script>
+    <title>Document</title>
+
+
+</head>
+<body>
+</body>
+</html>
